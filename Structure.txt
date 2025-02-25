@@ -1,0 +1,20 @@
+WebAppWithPython/                # Root Project Folder
+│── src/
+│   ├── main/
+│   │   ├── java/com/example/webapp/  
+│   │   │   ├── WebAppWithPythonApplication.java  # Main Spring Boot Application
+│   │   │   ├── controller/
+│   │   │   │   ├── MainController.java          # Handles Web Requests
+│   │   │   ├── service/
+│   │   │   │   ├── PythonService.java           # Handles Python Execution (Optional)
+│   │   ├── resources/
+│   │   │   ├── templates/  
+│   │   │   │   ├── index.html                   # HTML Frontend
+│   │   │   ├── static/  
+│   │   │   │   ├── css/  
+│   │   │   │   │   ├── style.css                # CSS Styling
+│   │   │   ├── application.properties           # Spring Boot Configurations
+│   │
+│── script.py                                    # Python Script for Calculations
+│── pom.xml                                      # Maven Dependencies
+│── README.md                                    # Project Documentation
