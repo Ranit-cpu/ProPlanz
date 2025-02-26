@@ -16,7 +16,7 @@ public class MainController {
             return"index";
       }
       
-      @PostMapping("/calculate")
+      @GetMapping("/calculate")
       public String Calculate(@RequestParam int num1, @RequestParam int num2, Model model) {
             
             try{
