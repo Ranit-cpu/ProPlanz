@@ -1,8 +1,8 @@
-WebAppWithPython/                # Root Project Folder
+ProPlanz/                # Root Project Folder
 │── src/
 │   ├── main/
-│   │   ├── java/com/example/webapp/
-│   │   │   ├── WebAppWithPythonApplication.java  # Main Spring Boot Application
+│   │   ├── java/com/Spring/
+│   │   │   ├── ProPlanz.java  # Main Spring Boot Application
 │   │   │   ├── controller/
 │   │   │   │   ├── MainController.java          # Handles Web Requests
 │   │   │   ├── service/
